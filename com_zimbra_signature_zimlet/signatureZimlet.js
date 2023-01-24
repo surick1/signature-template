@@ -42,7 +42,7 @@ Com_Zimbra_SignatureZimlet.prototype._createDialogView = function() {
 Com_Zimbra_SignatureZimlet.prototype.singleClicked = function() {
   var zimletInstance = appCtxt._zimletMgr.getZimletByName('com_zimbra_signature_zimlet').handlerObject;
   //var bottomImageUrl = "https://raw.githubusercontent.com/Zimbra-Community/signature-template/master/images/zeta-alliance.png";
-  var bottomImageUrl = "https://github.com/surick1/signature-template/blob/master/images/im.png";
+  var bottomImageUrl = "https://raw.githubusercontent.com/surick1/signature-template/master/images/im.png";
 
   var signatureContents;
 
@@ -109,7 +109,7 @@ Com_Zimbra_SignatureZimlet.prototype._error = function() {
 Com_Zimbra_SignatureZimlet.prototype._okBtnListener = function() {
   var zimletInstance = appCtxt._zimletMgr.getZimletByName('com_zimbra_signature_zimlet').handlerObject;
   //var bottomImageUrl = "https://raw.githubusercontent.com/Zimbra-Community/signature-template/master/images/zeta-alliance.png";
-  var bottomImageUrl = "https://github.com/surick1/signature-template/blob/master/images/im.png";	
+  var bottomImageUrl = "https://raw.githubusercontent.com/surick1/signature-template/master/images/im.png";	
 
   var signatureName = document.querySelector('[name=signature_name_prop]');
   var signatureOccupation = document.querySelector('[name=signature_occupation_prop]');
